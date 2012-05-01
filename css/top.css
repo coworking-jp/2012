@@ -314,6 +314,7 @@ a.bluelink:visited:hover {
 	height: 40px;
 	margin: 0 auto;
 	padding-top: 3px;
+	overflow:hidden;
 /*	padding-left: 120px;
 	background-image: url(../images/newsbarhd.jpg);
 	background-repeat: no-repeat;*/
