@@ -178,10 +178,11 @@ a.bluelink:visited:hover {
 	overflow: hidden;
 }
 #fullcolumn div.band div.photoheader div.photo {
-	width: 1200px;
+	/* width: 1200px; */
 	height: 400px;
 	margin: 0 auto;
 	background-repeat: no-repeat;
+	background-position: center;
 	overflow: hidden;
 }
 #fullcolumn div.band div.cabinet {
@@ -326,16 +327,19 @@ a.bluelink:visited:hover {
 	padding-top: 0px;
 }
 #footer div.cabinet {
-	width: 1200px;
+	/* width: 1200px; */
 	margin: 0 auto;
 	margin-top: 60px;
 }
 
 #footer div.cabinet div.copyright {
-	width: 1200px;
+	/* width: 1200px; */
 	height: 20px;
+	text-align: center;
 }
-
+#footer div.cabinet div.copyright strong {
+	font-weight: bold;
+}
 
 p.caption {
 	font-size: 14px;
