@@ -5,16 +5,12 @@ body {
 	font-size: 12px;
 	color: #232323;
 	line-height: 160%;
-	background-image: url(../images/pbg.jpg);
-	background-repeat: repeat-x;
 }
 * html body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #232323;
 	line-height: 180%;
-	background-image: url(../images/pbg.jpg);
-	background-repeat: repeat-x;
 }
 
 
@@ -128,6 +124,14 @@ a.bluelink:visited:hover {
 	background-image: url(../images/topimage.jpg);
 	background-repeat: no-repeat;
 	position: relative;
+}
+#topimage div.imagecabinet .topbanner {
+	position: absolute;
+	width: 400px;
+	height: 180px;
+	top: 30px;
+	left: 600px;
+	border: 1px solid #CCC;
 }
 
 #basicinfo {
@@ -306,8 +310,6 @@ a.bluelink:visited:hover {
 	width: auto;
 	height: 40px;
 	margin-bottom: 10px;
-	background-image: url(../images/newsbarbg.jpg);
-	background-repeat: repeat-x;
 }
 #tickerbar div.newscabinet {
 	width: 997px;
@@ -315,9 +317,6 @@ a.bluelink:visited:hover {
 	margin: 0 auto;
 	padding-top: 3px;
 	overflow:hidden;
-/*	padding-left: 120px;
-	background-image: url(../images/newsbarhd.jpg);
-	background-repeat: no-repeat;*/
 }
 #tickerbar div.newscabinet div. {
 }
