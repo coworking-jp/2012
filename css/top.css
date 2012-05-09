@@ -500,4 +500,5 @@ table.stdtable tr td p,table.stdtable tr td div,table.stdtable tr td span {
 ul#coworkingSpaces li a{
     color:#FFF;
     text-decoration: underline;
+    font-size: 90%;
 }
