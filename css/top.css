@@ -496,3 +496,8 @@ table.stdtable tr td p,table.stdtable tr td div,table.stdtable tr td span {
 .clear {
 	clear: both;
 }
+
+ul#coworkingSpaces li a{
+    color:#FFF;
+    text-decoration: underline;
+}
