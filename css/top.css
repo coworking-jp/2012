@@ -64,6 +64,26 @@ a.bluelink:visited:hover {
 	text-decoration: underline;
 }
 
+a.white:link {
+	color: #FFF;
+	text-decoration: none;
+}
+a.white:link:hover {
+	color: #FFF;
+	text-decoration: none;
+	border-bottom:solid 1px #FFF;
+}
+a.white:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+a.white:visited:hover {
+	color: #232323;
+	text-decoration: none;
+	border-bottom:solid 1px #FFF;
+}
+
+
 
 
 #wrapper {
