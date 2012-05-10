@@ -232,7 +232,7 @@ a.white:visited:hover {
 	font-size: 20px;
 	line-height: 200%;
 }
-#fullcolumn div.band div.cabinet div.sectioncabinet ul.sponsorlist {
+/*#fullcolumn div.band div.cabinet div.sectioncabinet ul.sponsorlist {
 	clear: both;
 	width: 950px;
 	margin-left: 50px;
@@ -263,7 +263,115 @@ a.white:visited:hover {
 #fullcolumn div.band div.cabinet div.sectioncabinet ul.sponsorlist li a:hover {
 	text-decoration: none;
 	border: none;
+}*/
+
+#fullcolumn div.band div.cabinet div.sectioncabinet ul.sponsorlist_p {
+	clear: both;
+	width: 980px;
+	margin-left: 20px;
+	list-style: none;
+	padding-top: 0px;
+	overflow: hidden;
 }
+#fullcolumn div.band div.cabinet div.sectioncabinet ul.sponsorlist_p li {
+	float: left;
+	width: 160px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+#fullcolumn div.band div.cabinet div.sectioncabinet ul.sponsorlist_p li div.logo {
+	width: 160px;
+	height: 100px;
+	margin-bottom: 5px;
+}
+#fullcolumn div.band div.cabinet div.sectioncabinet ul.sponsorlist_p li div.logo a {
+	border: none!important;
+}
+
+#fullcolumn div.band div.cabinet div.sectioncabinet ul.sponsorlist_p li div.name {
+	width: 160px;
+	font-size: 12px;
+	line-height: 140%;
+	text-align: center;
+}
+#fullcolumn div.band div.cabinet div.sectioncabinet ul.sponsorlist_p li div.name a {
+	border: none!important;
+}
+
+
+#fullcolumn div.band div.cabinet div.sectioncabinet ul.sponsorlist_g {
+	clear: both;
+	width: 980px;
+	margin-left: 20px;
+	list-style: none;
+	padding-top: 0px;
+	overflow: hidden;
+}
+#fullcolumn div.band div.cabinet div.sectioncabinet ul.sponsorlist_g li {
+	float: left;
+	width: 120px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+#fullcolumn div.band div.cabinet div.sectioncabinet ul.sponsorlist_g li div.logo {
+	width: 120px;
+	height: 80px;
+	margin-bottom: 5px;
+}
+#fullcolumn div.band div.cabinet div.sectioncabinet ul.sponsorlist_g li div.logo a {
+	border: none!important;
+}
+
+#fullcolumn div.band div.cabinet div.sectioncabinet ul.sponsorlist_g li div.name {
+	width: 120px;
+	font-size: 12px;
+	line-height: 140%;
+	text-align: center;
+}
+#fullcolumn div.band div.cabinet div.sectioncabinet ul.sponsorlist_g li div.name a {
+	border: none!important;
+}
+
+
+
+#fullcolumn div.band div.cabinet div.sectioncabinet ul.sponsorlist_s {
+	clear: both;
+	width: 980px;
+	margin-left: 20px;
+	list-style: none;
+	padding-top: 0px;
+	overflow: hidden;
+}
+#fullcolumn div.band div.cabinet div.sectioncabinet ul.sponsorlist_s li {
+	float: left;
+	width: 100px;
+	margin-right: 10px;
+	margin-bottom: 40px;
+}
+#fullcolumn div.band div.cabinet div.sectioncabinet ul.sponsorlist_s li div.logo {
+	width: 100px;
+	height: 60px;
+	margin-bottom: 5px;
+}
+#fullcolumn div.band div.cabinet div.sectioncabinet ul.sponsorlist_s li div.logo a {
+	border: none!important;
+}
+
+#fullcolumn div.band div.cabinet div.sectioncabinet ul.sponsorlist_s li div.name {
+	width: 100px;
+	font-size: 10px;
+	line-height: 140%;
+	text-align: center;
+}
+#fullcolumn div.band div.cabinet div.sectioncabinet ul.sponsorlist_s li div.name a {
+	border: none!important;
+}
+
+
+
+
+
+
 
 #fullcolumn div.band div.cabinet div.sectioncabinet ul.exhibitorlist {
 	clear: both;
