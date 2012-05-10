@@ -245,6 +245,24 @@ a.bluelink:visited:hover {
 	border: none;
 }
 
+#fullcolumn div.band div.cabinet div.sectioncabinet ul.exhibitorlist {
+	clear: both;
+	width: 980px;
+	margin-left: 20px;
+	list-style: none;
+	padding-top: 0px;
+	overflow: hidden;
+}
+#fullcolumn div.band div.cabinet div.sectioncabinet ul.exhibitorlist li {
+	float: left;
+	width: 160px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+#fullcolumn div.band div.cabinet div.sectioncabinet ul.exhibitorlist li a {
+	border: none!important;
+}
+
 
 #fullcolumn div.band div.cabinet div.sectioncabinet div.textcabinet div.profilelist {
 	float: left;
