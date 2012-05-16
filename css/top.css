@@ -153,6 +153,35 @@ a.white:visited:hover {
 	left: 600px;
 	border: 1px solid #CCC;
 }
+#topimage div.imagecabinet .newsrelease {
+	position: absolute;
+	width: 640px;
+	padding: 10px;
+	top: 640px;
+	left: 0px;
+	font-size: 10px;
+	font-weight: bold;
+	color: #666;
+	text-align: left;
+/*	border: 1px solid #CCC;*/
+	overflow: hidden;
+}
+#topimage div.imagecabinet .newsrelease ul {
+	float: left;
+	width: 400px;
+	margin-left: 40px;
+	list-style: none;
+	font-size: 12px;
+	overflow: hidden;
+}
+#topimage div.imagecabinet .newsrelease ul li {
+	float: left;
+	margin-right: 40px;
+}
+#topimage div.imagecabinet .newsrelease ul li a {
+	color: #C36;
+	text-decoration: underline;
+}
 
 #basicinfo {
 	width: 1000px;
