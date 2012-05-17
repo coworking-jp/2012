@@ -602,6 +602,38 @@ table.stdtable tr td div.incellbox dl dd {
 	margin-bottom: 10px;
 }
 
+table.stdtable tr td div.incellbox2 {
+	width: 480px;
+	overflow: hidden;
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px dotted #FFF;
+}
+table.stdtable tr td div.incellbox2 div.titlebox {
+	width: 480px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+table.stdtable tr td div.incellbox2 dl {
+	width: 480px;
+	margin-left: 0px;
+	overflow: hidden;
+}
+table.stdtable tr td div.incellbox2 dl dt {
+	float: left;
+	font-size: 13px;
+	width: 80px;
+	margin-bottom: 10px;
+}
+table.stdtable tr td div.incellbox2 dl dd {
+	float: left;
+	width: 400px;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+
+
+
 table.stdtable tr th.tallth {
 	border-bottom: solid 1px #FFF;
 	font-weight: bold;
