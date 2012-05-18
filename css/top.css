@@ -602,6 +602,10 @@ table.stdtable tr td div.incellbox dl dd {
 	font-size: 13px;
 	margin-bottom: 10px;
 }
+table.stdtable tr td div.incellbox dl dd a {
+	text-decoration: underline;
+	cursor: pointer;
+}
 
 table.stdtable tr td div.incellbox2 {
 	width: 480px;
