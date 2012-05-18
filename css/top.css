@@ -574,7 +574,7 @@ table.stdtable tr td {
 }
 
 table.stdtable tr td div.incellbox {
-	width: 480px;
+	width: 500px;
 	overflow: hidden;
 	margin-top: 10px;
 	padding-top: 10px;
@@ -598,7 +598,7 @@ table.stdtable tr td div.incellbox dl dt {
 }
 table.stdtable tr td div.incellbox dl dd {
 	float: left;
-	width: 390px;
+	width: 400px;
 	font-size: 13px;
 	margin-bottom: 10px;
 }
@@ -699,6 +699,83 @@ table.stdtable tr td p,table.stdtable tr td div,table.stdtable tr td span {
 }
 
 
+.profbox {
+	width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #FFF;
+	overflow: hidden;
+	position: relative;
+	display: none;
+	z-index: 100003;
+	border: 3px solid #99CC00;
+}
+.profbox h2 {
+	display: block;
+	width: 760px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 130%;
+	border-bottom: 1px solid #333;
+	background-image: url(../images/blockhd_ico.jpg);
+	background-repeat: no-repeat;
+}
+.profbox p {
+	font-size: 14px;
+	line-height: 180%;
+	margin-bottom: 10px;
+}
+.profbox p.smallfont {
+	font-size: 10px;
+	line-height: 160%;
+	margin-bottom: 10px;
+	color: #666;
+}
+.profbox dl {
+	width: 700px;
+	margin-left: 20px;
+	overflow: hidden;
+}
+.profbox dl dt {
+	float: left;
+	font-size: 13px;
+	width: 120px;
+	margin-bottom: 10px;
+	color: #555;
+}
+.profbox dl dd {
+	float: left;
+	width: 580px;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+
+
+
+.profbox .close {
+	position: absolute;
+	left: 800px;
+	top: 10px;
+	display: block;
+	width: 16px;
+	height: 16px;
+	background-image: url(../images/closeicon.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	text-indent: -9999px;
+}
+.profbox .close:hover {
+	border-bottom: none!important;
+	background-position: 0px -16px;
+}
+.js_lb_overlay	{
+	background: 'black';
+	opacity: 0.6!important;
+	z-index: 100002;
+}
 
 
 .clear {

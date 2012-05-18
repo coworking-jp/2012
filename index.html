@@ -42,6 +42,25 @@
 	});
 </script>
 <script src="js/jquery.lightbox_me.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/prof.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+        $(function() {
+            function launch() {
+                 $('#prof').lightbox_me({centered: true, onLoad: function() { $('#prof').find('input:first').focus()}});
+            }
+            
+            $('#profname').click(function(e) {
+                $("#prof").lightbox_me({centered: true, onLoad: function() {
+					$("#prof").find("input:first").focus();
+				}});
+				
+                e.preventDefault();
+            });
+            
+            
+            $('table tr:nth-child(even)').addClass('stripe');
+        });
+</script>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -269,13 +288,13 @@
 											<div class="titlebox"><span style="font-weight: bold;">5F エコライブオフィス</span>：コワーキングを考えるセッション</div>
 											<dl>
 												<dt>11:40-12:35</dt>
-												<dd>ランチセッション『コワーキングスペースを始める方法』</dd>
+												<dd>ランチセッション『コワーキングスペースを始める方法』<img src="images/prof_off.png" alt="" id="profname1" /></dd>
 												<dt>12:40-13:35</dt>
-												<dd>『コワーキングスペース６つのチャレンジ』</dd>
+												<dd>『コワーキングスペース６つのチャレンジ』<img src="images/prof_off.png" alt="" id="profname2" /></dd>
 												<dt>13:40-14:55</dt>
-												<dd>『孵化器としてのコワーキング』</dd>
+												<dd>『孵化器としてのコワーキング』<img src="images/prof_off.png" alt="" id="profname3" /></dd>
 												<dt>15:00-16:15</dt>
-												<dd>『女性×コワーキング〜ライフステージに合わせた多様な働き方』</dd>
+												<dd>『女性×コワーキング〜ライフステージに合わせた多様な働き方』<img src="images/prof_off.png" alt="" id="profname4" /></dd>
 											</dl>
 										</div>
 										<div class="incellbox">
@@ -418,6 +437,48 @@
 	<div class="cabinet">
 		<div class="copyright">Copyright &copy; <strong>COWORKING JAPAN</strong>. All rights reserved.</div>
 	</div>
+</div>
+<div class="profbox" id="prof1">
+	<h2>ランチセッション『コワーキングスペースを始める方法』：5F エコライブオフィス 11:40-12:35</h2>
+	<p>コワーキングにはスペースを始めるという選択肢があることに気づきはじめたあなたのためのランチタイム。</p>
+	<p>このセッションはコワーキングスペースを立ち上げたカタリスト（オーナー）の方々から先人のポイントを共有していただき、ご参加いただいたみなさんが自分達のコワーキングスペースを立ち上げるための一歩を踏み出していただく場です。</p>
+	<p>ランチ時間ということで、食事を取りながらの対話の場をご用意します。語り合うということをちょっと意識した空間で、ご自身が想い描くコワーキングスペースをよりリアルなモノにしましょう。そんな語りの場を聴いてみたいという方は、観覧も可能です。</p>
+	<p>★ 食事（サンドウィッチやおにぎり）の準備がありますので、別途500円程度会場でいただきます。</p>
+	<p>★ ダイアログファシリテーター：高柳　謙</p>
+	<a id="close_x" class="close sprited" href="index.html">close</a>
+</div>
+<div class="profbox" id="prof2">
+	<h2>『コワーキングスペース６つのチャレンジ』：5F エコライブオフィス 12:40-13:35</h2>
+	<p>あらたな事業の業態として急速に普及し始めたコワーキングスペースは、多面的な社会的役割を担うものとして期待されています。しかし、新しいものであるゆえ、論者の数だけ定義があると言ってもよいでしょう。</p>
+	<p>このセッションでは抽象的な定義や理念としてのコワーキングスペースではなく、実際にそれを運営している人々に、具体的な運営内容を語ってもらい、「事業としてのコワーキング」の視点から、採算・人事・日々の運営・営業といった生々しい内容について知ることから「コワーキングとは」を考えてみようというセッションです。</p>
+	<p>★パネリスト<br />五十川員申(金沢 cafe? IKAGAWADO)<br />住田賢司（大阪 JOKAFE）<br />その他</p>
+	<a id="close_x" class="close sprited" href="index.html">close</a>
+</div>
+<div class="profbox" id="prof3">
+	<h2>『孵化器としてのコワーキング』：5F エコライブオフィス 13:40-14:55</h2>
+	<p>IT技術の進展と世界共通のモバイルツールの普及は、特にIT業界における各個人の働き方、社会との関わり方をも変えてしまったと言われています。この現状において、よりよい社会をつくろうとするITスタートアップにとってのコワーキングのもつ意味、特に、スタートアップに対するメンターであり、支援者である、「孵化器としてのコワーキング」の役割を明かにしようというセッションです。</p>
+	 <p>★パネリスト<br />秋山智紀（ベンチャーキャピタリスト）<br />木村篤彦（株式会社co-meeting　代表取締役）<br />高 敏晴 (公認会計士）<br />上田和真（フリーランスエンジニア）<br />谷川周平（Chatworks）</p>
+	<p>司会　高橋郁夫（宇都宮大学講師）</p>
+	<a id="close_x" class="close sprited" href="index.html">close</a>
+</div>
+<div class="profbox" id="prof4">
+	<h2>『女性×コワーキング〜ライフステージに合わせた多様な働き方』：5F エコライブオフィス 15:00-16:15</h2>
+	<p>時間や場所に縛られず、自由に仕事をしていきたい。</p>
+	<p>安心して働ける場所、自由で刺激的な環境。そんな中で創造的な仕事をしたい。</p>
+	<p>それは女性に限ったテーマではありませんが、女性は出産や育児などのライフイベントの影響を受けやすく、ライフステージに合わせたシフトチェンジがより必要とされています。また、3.11以降、多様な働き方や暮らし方へのニーズは加速していますが、いったいどんな働き方が実現できればみんなが幸せになるんだろう。自分たちだけでなく、次の世代、またその次の世代まで、つないでいけるんだろう。</p>
+	<p>ただ一つの正解はありませんが、とにかくいろんな立場や環境の女性たちと「はたらくこと」について、アイデアや想いを共有して「どんな未来を創りたいのか」シェアしたいと思います！</p>
+	<p>★AGENDA</p>
+	<dl>
+		<dt>オープニング</dt>
+		<dd>"cococi"　Coworking　Space　市川望美</dd>
+		<dt>Lightning Talks<br />『はたらく×私』</dt>
+		<dd>20代〜60代までの未婚・既婚女性たちによる3分プレゼンテーション。コワーキングスペースオーナー・運営者、コワーカーはもちろん、会社員、NPOスタッフ＆インターン、社会起業家、主婦や学生なども登壇し、それぞれの想いを発信します。</dd>
+		<dt>Sharing</dt>
+		<dd>周りの人と感想シェア</dd>
+	</dl>
+	<p class="smallfont">※本セッションは、女性限定となっております。女性だけの課題ではありませんが、まずは女性同士でざっくばらんに話してみようと思います。</p>
+	<p class="smallfont">※保育などはありませんが、お子さんと一緒にご参加いただけます。お互いに配慮しながら、是非ご参加ください。</p>
+	<a id="close_x" class="close sprited" href="index.html">close</a>
 </div>
 </body>
 </html>
