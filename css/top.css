@@ -781,6 +781,32 @@ table.stdtable tr td p,table.stdtable tr td div,table.stdtable tr td span {
 	z-index: 100002;
 }
 
+.profbox input[type="button"]:focus {
+     border: none;
+     outline: 0;  /*safariの自動フォーカスを切る */
+     margin-bottom: 10px;
+}
+
+.button_attend{
+border:1px solid #ffaf46; -webkit-border-radius: 3px;width:280px; -moz-border-radius: 3px;border-radius: 3px; font-family:arial,helvetica,sans-serif; font-size: 14px; padding: 5px 10px 5px 10px; text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; text-align: center; color: #FFFFFF; background-color: #ffc579;
+ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffc579), color-stop(100%, #fb9d23));
+ background-image: -webkit-linear-gradient(top, #ffc579, #fb9d23);
+ background-image: -moz-linear-gradient(top, #ffc579, #fb9d23);
+ background-image: -ms-linear-gradient(top, #ffc579, #fb9d23);
+ background-image: -o-linear-gradient(top, #ffc579, #fb9d23);
+ background-image: linear-gradient(top, #ffc579, #fb9d23);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffc579, endColorstr=#fb9d23);
+}
+
+.button_attend:hover{
+ border:1px solid #ffaf46; background-color: #ffaf46;
+ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffaf46), color-stop(100%, #e78404));
+ background-image: -webkit-linear-gradient(top, #ffaf46, #e78404);
+ background-image: -moz-linear-gradient(top, #ffaf46, #e78404);
+ background-image: -ms-linear-gradient(top, #ffaf46, #e78404);
+ background-image: -o-linear-gradient(top, #ffaf46, #e78404);
+ background-image: linear-gradient(top, #ffaf46, #e78404);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffaf46, endColorstr=#e78404);
+}
+
 
 .clear {
 	clear: both;
